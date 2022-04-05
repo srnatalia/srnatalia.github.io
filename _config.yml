@@ -15,7 +15,7 @@ github_username:  srnatalia
 #instagram_username: mauriciourraco7
 #facebook_username: mauricio.urraco
 # medium_username: lorem_ipsum
-# medium_url: lorem_ipsum.medium.com
+medium_url: srnatalia.github.io/blog
 # gplus_username:  lorem_ipsum
 
 exclude: ['package.json', 'src' , 'node_modules']
