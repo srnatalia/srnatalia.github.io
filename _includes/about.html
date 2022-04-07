@@ -22,6 +22,7 @@
     </p>
    {% if site.email %}
         <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
+   {% endif %}
   </div>
   
   
@@ -42,6 +43,7 @@
     <p>Git, Gulp, Grunt, NPM, Linux, Docker, you name it, I have used a bajillion tools!</p>
    {% if site.github_username %}
    <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+   {% endif %}
   </div>
  
  <div class="tech">
@@ -60,6 +62,7 @@
     <p>The Unnamed Project Blog is where I document my learning journey and my ongoing projects.</p>
    {% elsif site.medium_url %}
         <a aria-label="My Medium" target="_self" href="https://{{ site.medium_url }}"><i class="icon fa fa-blog" aria-hidden="true"></i></a>
+    {% endif %}
   </div>
  
 </div>
