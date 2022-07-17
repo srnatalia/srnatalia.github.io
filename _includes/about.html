@@ -21,7 +21,13 @@
     <p>Hi, My name is Natalia. I am a brazilian engineering student, who loves coding and messing things up. I am a brazilian engineering student, who loves coding and messing things up.
     </p>
    {% if site.email %}
-        <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
+   <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
+   {% endif %}
+   {% if site.github_username %}
+   <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+   {% endif %}
+   {% if site.linkedin_username %}
+   <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
    {% endif %}
   </div>
   
@@ -41,9 +47,7 @@
       <polygon fill="#FFFFFF" points="11,1 11,5 13,5 13,2 14,2 14,5 15,5 15,2 16,2 16,5 17,5 17,1 "/>
     </svg>
     <p>Git, Gulp, Grunt, NPM, Linux, Docker, you name it, I have used a bajillion tools!</p>
-   {% if site.github_username %}
-   <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-   {% endif %}
+   
   </div>
  
  <div class="tech">
