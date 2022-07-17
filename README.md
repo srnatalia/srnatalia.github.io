@@ -12,7 +12,3 @@
 ![](https://img.shields.io/badge/gulp-✓-blue.svg)
 
   
-
-# Credits
-- [Mauricio Urraco](https://github.com/murraco)
-- [Nathan Randecker](https://github.com/nrandecker)
