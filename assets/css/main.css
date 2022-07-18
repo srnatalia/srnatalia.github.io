@@ -3791,7 +3791,8 @@ sup {
 }
 .header .site-title {
   font-size: 50px;
-  display: inline-block;
+  white-space: nowrap;
+  display: inline;
   line-height: 1;
   color: #fff;
 }
