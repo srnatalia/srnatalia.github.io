@@ -1,13 +1,14 @@
 <footer class="footer">
     <a class="up" href="#index" data-scroll><i class="icon fa fa-caret-up" aria-hidden="true"></i></a>
-    <p>
+     <p>
+         &copy; {{site.username}}
         <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="icon fa fa-linkedin-in" aria-hidden="true"></i></a>
         <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github-square" aria-hidden="true"></i></a>
 
     </p>
-    <p>&copy; {{site.username}}</p>
-    <!-- <p>&copy; {{ site.username }}</p> <a href="https://github.com/murraco">
+   
+    <!-- <p>&copy; {{ site.username }}</p> <a href="https://github.com/natalianrs">
     <p>  Built with Jekyll and <span class="love">❤</span></p>-->
 </footer>
 <script src="{{ '/assets/js/particles.min.js' | prepend: site.baseurl }}"></script>
