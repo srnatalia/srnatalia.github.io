@@ -3792,7 +3792,7 @@ sup {
 .header .site-title {
   font-size: 50px;
   white-space: nowrap;
-  display: inline;
+  display: block;
   line-height: 1;
   color: #fff;
 }
