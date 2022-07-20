@@ -3790,7 +3790,7 @@ sup {
   transform: translate(-50%, -50%);
 }
 .header .site-title {
-  font-size: 50px;
+  font-size: 76px; /*50*/
   white-space: nowrap;
   display: block;
   line-height: 1;
@@ -3799,7 +3799,7 @@ sup {
 @media only screen and (min-width: 768px) {
   .header .site-title {
     margin: 0;
-    font-size: 56px; /*76*/
+    font-size: 76px; 
   }
 }
 .header .site-description {
