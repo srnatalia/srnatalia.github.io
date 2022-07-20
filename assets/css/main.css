@@ -3790,7 +3790,7 @@ sup {
   transform: translate(-50%, -50%);
 }
 .header .site-title {
-  font-size: 45px; /*50*/
+  font-size: 40px; /*50*/
   white-space: nowrap;
   display: block;
   line-height: 1;
