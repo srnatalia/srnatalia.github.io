@@ -3896,6 +3896,7 @@ sup {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover,
+user-details .icon,
 .user-details .icon:active,  /* add!!!*/
 .user-details .icon:hover {   /* add!!!*/
   color: #4b5664;
