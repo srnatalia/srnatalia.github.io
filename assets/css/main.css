@@ -3901,6 +3901,7 @@ sup {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover,
+.about .icon,  /* add!!!*/
 .user-details .icon,  /* add!!!*/
 .user-details .icon:active,  /* add!!!*/
 .user-details .icon:hover {   /* add!!!*/
