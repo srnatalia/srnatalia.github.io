@@ -3901,10 +3901,10 @@ sup {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover,
-.about .icon,  /* add!!!*/
+.user .icon,  /* add!!!*/
 .user-details .icon,  /* add!!!*/
-.user-details .icon:active,  /* add!!!*/
-.user-details .icon:hover {   /* add!!!*/
+/*.user-details .icon:active,  add!!!*/
+/*.user-details .icon:hover {    add!!!*/
   color: #4b5664;
 }
 #about {
