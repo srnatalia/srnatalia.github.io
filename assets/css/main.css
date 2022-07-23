@@ -3900,13 +3900,15 @@ sup {
 .down .icon:active,
 .down .icon:hover,
 .footer a:active,
-.footer a:hover,
-.user .icon,  /* add!!!*/
-.user-details .icon,  /* add!!!*/
-/*.user-details .icon:active,  add!!!*/
-/*.user-details .icon:hover {    add!!!*/
+.footer a:hover {
   color: #4b5664;
 }
+
+.user .icon,                /* add!!!*/
+.user-details .icon {     /* add!!!*/
+  color: #252525;
+}
+
 #about {
   font-size: 120%;
   width: 90%;
