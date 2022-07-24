@@ -3799,7 +3799,7 @@ sup {
 @media only screen and (min-width: 768px) {
   .header .site-title {
     margin: 0;
-    font-size: 76px; 
+    font-size: 76px;
   }
 }
 .header .site-description {
@@ -3845,9 +3845,6 @@ sup {
   text-align: center;
 }
 
-.about .icon {    /* add!!!*/
-  color:#252525  /* add!!!*/
-}
 
 .header-icons .icon {
   height: 20px;
@@ -3904,9 +3901,17 @@ sup {
   color: #4b5664;
 }
 
+.header .link:hover{   /*add*/
+  font-weight: bold
+}
 .user .icon,                /* add!!!*/
 .user-details .icon {     /* add!!!*/
   color: #252525;
+}
+
+.user .icon:hover,                /* add!!!*/
+.user-details .icon:hover {     /* add!!!*/
+  color: #000;
 }
 
 #about {
