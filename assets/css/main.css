@@ -3928,7 +3928,7 @@ sup {
 }
 .tech {
   margin: 10px;
-  flex: 1 1 0;
+  flex: 1 1 1;
 }
 .tech h2,
 .tech h3,
@@ -3942,7 +3942,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;  /*justify-content: space-between*/
 }
 .user p {
   font-size: 16px;
