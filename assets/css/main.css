@@ -3901,9 +3901,6 @@ sup {
   color: #4b5664;
 }
 
-.header .link:hover{   /*add*/
-  font-weight: bold
-}
 .user .icon,                /* add!!!*/
 .user-details .icon {     /* add!!!*/
   color: #252525;
